@@ -1,0 +1,1 @@
+export const SET_CACHE_NEWS = 'SET_CACHE_NEWS';
