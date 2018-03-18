@@ -87,32 +87,22 @@ export default {
 
   mounted(){
     //设置正文样式
-    let p = Array.from(this.$refs.newsText.getElementsByTagName("p"));
-    let h3 = Array.from(this.$refs.newsText.getElementsByTagName("h3"));
-    let img = Array.from(this.$refs.newsText.getElementsByTagName("img"));
-    let a = Array.from(this.$refs.newsText.getElementsByTagName("a"));
-    p.map((item,index)=>{
-      item.style.marginBottom = '26px';
-      item.style.lineHeight = '28px';
-      item.style.fontSize = '15px';
-      item.style.color = '#3d464d';
-    });
-    h3.map((item,index)=>{
-      item.style.marginBottom = '26px';
-    });
-    img.map((item,index)=>{
-      item.style.margin = '30px auto';
-      item.style.borderRadius = '5px';
-      item.style.display = 'block';
-      item.style.maxWidth = '100%';
-    });
-    a.map((item,index)=>{
-      item.style.color = '#4285f4';
-      item.style.borderStyle = 'solid';
-      item.style.borderWidth = '0 0 1px';
-      item.style.borderColor = '#4285f4';
-      item.style.padding = '0 0 1px';
-    });
+    let p = this.$refs.newsText.getElementsByTagName("p");
+    let h3 = this.$refs.newsText.getElementsByTagName("h3");
+    let img = this.$refs.newsText.getElementsByTagName("img");
+    let a = this.$refs.newsText.getElementsByTagName("a");
+    for(let i=0;i<p.length;i++){
+      p[i].style.cssText = "margin-bottom:26px;line-height:28px;font-size:15px;color:#3d464d";
+    }
+    for(let i=0;i<h3.length;i++){
+      h3[i].style.cssText = "margin-bottom:26px";
+    }
+    for(let i=0;i<img.length;i++){
+      img[i].style.cssText = "margin:30px auto;border-radius:5px;display:block;max-width:100%";
+    }
+    for(let i=0;i<a.length;i++){
+      a[i].style.cssText = "color:#4285f4;border-style:solid;border-width:0 0 1px;border-color:#4285f4;padding:0 0 1px";
+    }
 
     if(this.newsData.user){
       this.fetchAuthorData(this.newsData.user.id);
@@ -213,6 +203,3 @@ export default {
   }
 }
 </style>
-http://tx.acgvideo.com/71/40/26594071/26594071-1-16.mp4?txTime=1510992000&platform=html5&txSecret=9d848358fac1c1c75c6859048044b8fc&oi=3698571147&rate=65000&hfb=3f6ef0f36bdbbf909ca0b9a6fa0b2fa3
-
-http://tx.acgvideo.com/71/40/26594071/26594071-1-16.mp4?txTime=1510992239&platform=html5&txSecret=fcaea8f4ec40822ad2007a0f807fc83b&oi=3698571147&rate=65000&hfb=3f6ef0f36bdbbf909ca0b9a6fa0b2fa3

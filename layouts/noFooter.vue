@@ -8,16 +8,10 @@
           </nuxt-link>
           <nav>
             <nuxt-link :to="{name: 'index'}" :class="[{'selected':this.curPath==='/'},'navItem']">首页</nuxt-link>
-            <nuxt-link :to="{name: 'market'}" :class="[{'selected':this.curPath==='/market'},'navItem']">集市</nuxt-link>
             <nuxt-link :to="{name: 'video'}" :class="[{'selected':this.curPath==='/video'},'navItem']">视频</nuxt-link>
             <nuxt-link :to="{name: 'game'}" :class="[{'selected':this.curPath==='/game'},'navItem']">游戏</nuxt-link>
             <nuxt-link :to="{name: 'data'}" :class="[{'selected':this.curPath==='/data'},'navItem']">数据</nuxt-link>
           </nav>
-          <div class="user">
-            <span class="login">登录</span>
-            <i class="midLine" />
-            <span class="signup">注册</span>
-          </div>
         </div>
     </header>
     <div class="container pageContent">

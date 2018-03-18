@@ -2,7 +2,7 @@
   <div class="VideoDetail">
     <div class="leftContainer">
       <ArsVideo
-        img="https://wx1.sinaimg.cn/crop.40.0.539.300/005Md8mYgy1fll05n5d7dj30h808cdk6.jpg"
+        img="https://dslb.cdn.krcom.cn/stream/loXsmV7wQjxrijb2KRVsl3H38RLRuw69BvPtmA___32768.jpg"
         videoSrc="https://o6yh618n9.qnssl.com/YZfB5tsi_6322701151.mp4"
         initWidth="800px"
         :danmakuList="danmakuList"
@@ -19,7 +19,7 @@
         <h3>{{curVideo.title}}</h3>
         <div>
           <span>{{curVideo.pv+'次观看'}}</span>
-          <span><i class="iconfont icon-close"/>{{curVideo.likeNum}}</span>
+          <span><i class="iconfont icon-fabulous"/>{{curVideo.likeNum}}</span>
         </div>
       </div>
       <ul class="commentList">
@@ -129,7 +129,15 @@ export default {
           id:12,
           content:'888ddddddddddddddddddddddddd88887',
           time:8
-        },
+        },{
+          id:13,
+          content:'撒旦是觉得你',
+          time:12
+        },{
+          id:14,
+          content:'阿斯顿vv人',
+          time:15
+        }
       ],
       comments:[
         {
@@ -147,12 +155,12 @@ export default {
         }
       ],
       curVideo:{
-        id:1,
-        coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-        duration:'13:14',
-        title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-        author:'旅行囧记00',
-        pv:0,
+        id:4,
+        coverImg:'https://dslb.cdn.krcom.cn/stream/loXsmV7wQjxrijb2KRVsl3H38RLRuw69BvPtmA___32768.jpg',
+        duration:'02:21',
+        title:'【足球时刻】C罗的2018年逆天表现集锦！',
+        author:'足球世界',
+        pv:20,
         likeNum:12,
       },
       videoList:[
@@ -165,53 +173,53 @@ export default {
           pv:0
         },{
           id:2,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
-          pv:0
+          coverImg:'http://wx3.sinaimg.cn/crop.0.0.1280.720.360/6e9d1c2fly1fp5k9c67mtj20zk0k048b.jpg',
+          duration:'18:14',
+          title:'史上最黑漫威超级英雄片观影指南​​​​',
+          author:'电影幕后故事',
+          pv:10
         },{
           id:3,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
+          coverImg:'http://wx3.sinaimg.cn/crop.0.0.1920.1080.360/006SGWFnly1fpchgtwmdlj31hc0u0qh7.jpg',
+          duration:'13:36',
+          title:'青年演员陈星旭：不喜欢“童星”标签，不愿套路观众！',
+          author:'镜像娱乐观察',
           pv:0
         },{
           id:4,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
-          pv:0
+          coverImg:'https://dslb.cdn.krcom.cn/stream/loXsmV7wQjxrijb2KRVsl3H38RLRuw69BvPtmA___32768.jpg',
+          duration:'02:21',
+          title:'【足球时刻】C罗的2018年逆天表现集锦！',
+          author:'足球世界',
+          pv:20
         },{
           id:5,
           coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
           duration:'13:14',
           title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
+          author:'旅行囧记00',
           pv:0
         },{
           id:6,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
-          pv:0
+          coverImg:'http://wx3.sinaimg.cn/crop.0.0.1280.720.360/6e9d1c2fly1fp5k9c67mtj20zk0k048b.jpg',
+          duration:'18:14',
+          title:'史上最黑漫威超级英雄片观影指南​​​​',
+          author:'电影幕后故事',
+          pv:10
         },{
           id:7,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记',
+          coverImg:'http://wx3.sinaimg.cn/crop.0.0.1920.1080.360/006SGWFnly1fpchgtwmdlj31hc0u0qh7.jpg',
+          duration:'13:36',
+          title:'青年演员陈星旭：不喜欢“童星”标签，不愿套路观众！',
+          author:'镜像娱乐观察',
           pv:0
         },{
           id:8,
-          coverImg:'https://wx2.sinaimg.cn/crop.0.6.1920.1067/a9d8cdd5gy1flm4bg1bwzj21hc0u0x6p.jpg',
-          duration:'13:14',
-          title:'旅行囧记S01E012-沙巴网红美食店大揭秘，中国妹子被坑到泪哭干',
-          author:'旅行囧记11',
-          pv:0
+          coverImg:'https://dslb.cdn.krcom.cn/stream/loXsmV7wQjxrijb2KRVsl3H38RLRuw69BvPtmA___32768.jpg',
+          duration:'02:21',
+          title:'【足球时刻】C罗的2018年逆天表现集锦！',
+          author:'足球世界',
+          pv:20
         }
       ]
     }

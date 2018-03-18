@@ -45,7 +45,7 @@
             <i class="iconfont icon-xiayishou" />
           </span>
           <span @click="toggleVolume">
-            <i class="iconfont icon-close" />
+            <i class="iconfont icon-music1" />
           </span>
           <div class="volumeBar" ref="volumeBar" @mousedown.stop.prevent="changeVolumeByDrag" @click="changeVolume">
             <div class="curVolume" :style="{width:volumePercent}"></div>
@@ -54,8 +54,8 @@
         </div>
         <div class="right">
           <span @click="showSpeedListHandle" class="speed">{{curSpeed+'x'}}</span>
-          <span v-show="!isFullScreen" @click="toggleTheater"><i class="iconfont icon-enter" /></span>
-          <span @click="toggleFullScreen"><i class="iconfont icon-close" /></span>
+          <span v-show="!isFullScreen" @click="toggleTheater"><i class="iconfont icon-luxiang" /></span>
+          <span @click="toggleFullScreen"><i class="iconfont icon-fenlei" /></span>
         </div>
       </div>
       <ul class="speedList" v-show="showSpeedList">
